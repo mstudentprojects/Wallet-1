@@ -1,0 +1,41 @@
+body {
+    margin-top: 12px;
+}
+
+.big-brand {
+	font-size: 1.6em;
+	background: #eee;
+}
+
+.big-menu {
+	font-size: 1.2em;
+}
+
+.heading {
+	font-size: 1.3em;
+}
+
+.form {
+	margin-top: 26px;
+}
+
+.user-info {
+	font-size: 1.2em;
+	list-style-type: none;
+	line-height: 44px;
+	padding: 0;
+}
+
+.transactions {
+	font-size: 1.1em;
+	list-style-type: none;
+	line-height: 40px;
+	padding: 0;
+}
+
+.total-transactions {
+	font-size: 1.4em;
+	list-style-type: none;
+	line-height: 50px;
+	padding: 0;
+}
