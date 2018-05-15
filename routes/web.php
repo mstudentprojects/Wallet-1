@@ -11,6 +11,7 @@
 |
 */
 
+
 Route::get('/', function () {
     return view('index');
 })->name('index');
@@ -19,3 +20,6 @@ Auth::routes();
 
 // dashboard
 Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
+
+
+Route::resource('wallets', 'WalletController');

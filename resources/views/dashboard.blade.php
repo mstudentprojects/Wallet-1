@@ -2,6 +2,7 @@
 
 @section('content')
 
+<!-- user information -->
 <div class="row">
     <div class="col-md-8 col-md-offset-2">
         <div class="panel panel-default">
@@ -36,7 +37,7 @@
     </div>
 </div>
 
-
+<!-- latest transactions -->
 <div class="row">
     <div class="col-md-8 col-md-offset-2">
         <div class="panel panel-default">
@@ -60,28 +61,21 @@
     </div>
 </div>
 
-
+<!-- managing wallet -->
 <div class="row">
     <div class="col-md-8 col-md-offset-2">
         <div class="panel panel-default">
             <div class="panel-heading heading">مدیریت کیف ها</div>
 
             <div class="panel-body">
-                <ul class="total-transactions">
-                    <li><a href="#">کیف ۱</a></li>
-                    <li><a href="#">کیف ۲</a></li>
-                    <li><a href="#">کیف ۳</a></li>
-                    <li><a href="#">کیف ۴</a></li>
-                    <li><a href="#">کیف ۵</a></li>
-                    <li><a href="#">کیف ۶</a></li>
-                    <li><a href="#">کیف ۷</a></li>
-                </ul>
+                <a class="btn btn-info" href="#">مشاهده کیف ها</a>
+                <a class="btn btn-info" href="#">ایجاد کیف جدید</a>
             </div>
         </div>
     </div>
 </div>
 
-
+<!-- total -->
 <div class="row">
     <div class="col-md-8 col-md-offset-2">
         <div class="panel panel-default">
