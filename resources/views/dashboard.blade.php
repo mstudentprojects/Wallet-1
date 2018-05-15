@@ -68,8 +68,8 @@
             <div class="panel-heading heading">مدیریت کیف ها</div>
 
             <div class="panel-body">
-                <a class="btn btn-info" href="#">مشاهده کیف ها</a>
-                <a class="btn btn-info" href="#">ایجاد کیف جدید</a>
+                <a class="btn btn-info" href="{{ route('wallets.index') }}">مشاهده کیف ها</a>
+                <a class="btn btn-info" href="{{ route('wallets.create') }}">ایجاد کیف جدید</a>
             </div>
         </div>
     </div>
